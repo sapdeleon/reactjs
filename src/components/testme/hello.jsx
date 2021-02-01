@@ -8,7 +8,7 @@ function Hello() {
     const today = date.toLocaleDateString();
 
     const customStyle = {
-        color: "red"
+        color: "yellow"
     };
 
     if (hour < 12) {
@@ -19,7 +19,7 @@ function Hello() {
         customStyle.color = "blue";
     } else {
         message = "Good Evening!";
-        customStyle.color = "yellow";
+        customStyle.color = "red";
     }
 
     return (
