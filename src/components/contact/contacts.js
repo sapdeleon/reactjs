@@ -1,3 +1,4 @@
+// must be located at src/components folder only
 const contacts = [
     {
         id: 1,
